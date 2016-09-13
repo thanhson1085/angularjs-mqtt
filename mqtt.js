@@ -4,7 +4,7 @@ kmqtt.provider('kmqtt', function() {
         '$get': function(){
             return {
                 connect: function(url, options) {
-                    mqtt.connect(url, options);
+                    return mqtt.connect(url, options);
                 }
             };
         }
