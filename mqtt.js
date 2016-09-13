@@ -1,5 +1,5 @@
-var mqtt = angular.module('angularjs-mqtt', []);
-mqtt.provider('angularjs-mqtt', function() {
+var kmqtt = angular.module('koor.mqtt', []);
+kmqtt.provider('koor.mqtt', function() {
     return {
         '$get': function(){
             return mqtt.connect(url, options);
