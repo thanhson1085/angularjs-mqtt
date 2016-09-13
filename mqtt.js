@@ -3,6 +3,6 @@ mqtt.provider('angularjs-mqtt', function() {
     return {
         '$get': function(){
             return mqtt.connect(url, options);
-        };
+        }
     };
 });
